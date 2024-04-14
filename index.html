@@ -22,7 +22,7 @@
                         </div>
 						<div class="content">
 							<div class="inner">
-								<h1>Abhay More</h1>
+								<h1 class="font-bold">Abhay More</h1>
 								<p>Aspiring Game Developer, Computer Engineer</p>
 							</div>
 						</div>
@@ -42,10 +42,12 @@
 
                         <!-- Intro -->
                         <article id="about">
-                            <h2 class="major">About</h2>
+                            <h2 class="major font-bold">About</h2>
                             <!--<span class="image main"><img src="images/pic01.jpg" alt="" /></span>-->
                             <p>Software Engineer in making and a self proclaimed Bug-Slayer. On a journey to find the most efficient way of leveling through Computer Engineering while still acquiring all the useful quest rewards, with minimal backtracking.</p>
+                            <br>
                             <p>Playing different video games at an early age made me interested towards Games. I was fascinated by how video game works and how it uses the same Mathematics and Physics we learnt in High School and College(which i didn't know earlier) and surrounded by people who were in Game Dev attracted me even more towards Game Development. So my journey to become a Game Developer started from 11th Grade when i took Computer Science subject as an optional.</p>
+                            <br>
                             <p>Did my Computer Engineering from Savitribai Phule Pune University(SPPU). I am aware of OOPs concept, Design Patterns, currently learning something exciting. Till then check out my <a href="#projects">awesome work</a>.</p>
 
                         </article>
@@ -61,14 +63,27 @@
 
 
 
-                        <h2 class="major font-bold">Personal Projects</h2>
+                        <!--Personal Projects-->
                         <article id="projects">
-                            <div class="grid grid-cols-3 gap-8">
+                            <div class="flex justify-center mt-[-20px] gap-8 mb-4" style="margin-bottom: 75px">
+                                <a href="index.html#projects" class="no-dotted-line" style="background-color: #0000004d">
+                                    <h2 class="major font-bold">Personal Projects</h2>
+                                </a>
+                                <a href="index.html#unrealprojects" class="no-dotted-line custom-link">
+                                    <h2 class="major font-bold">Unreal Projects</h2>
+                                </a>                                    
+                                <a href="index.html#professional" class="no-dotted-line custom-link">
+                                    <h2 class="major font-bold">Professional Projects</h2>
+                                </a>
+                                <b></b>
+                            </div>
+                            
+                            <div class="grid lg:grid-cols-2 xl:grid-cols-3 grid-cols-1 gap-8">
                                 <!-- AMMPED - UP -->
-                                <div class="w-full ">
+                                <div class="w-full " >
                                     <h3 class="major2 font-bold">AMMPED - UP : A Retro Style Game</h3>
                                     <span class="image main">
-                                        <iframe width="100%" height="350" src="https://www.youtube.com/embed/dV3PnYL2-nw?si=aOgDutfiZm_1KIdw" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                        <iframe width="100%" height="350" src="https://www.youtube.com/embed/dV3PnYL2-nw?si=aOgDutfiZm_1KIdw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                                     </span>
                                     <div id="inner">
                                         <ul class="icons pb-8">
@@ -78,11 +93,10 @@
                                         </ul>
                                     </div>
                                     <p>Final Year College Project, clone of the famous OG game Bomberman, made in C++, SFML, TGUI and Mongocxx(MongoDB's C++ Driver'). Purpose of this project was to learn things by application rather than being theoretical. We implemented the programming concepts we learnt throughout our college years, like OOPs, Design Patterns, Filesystem I/O, DBMS and more.</p>
-
                                 </div>
 
                                 <!-- Doodle-Game-Clone -->
-                                <div>
+                                <div class="w-full ">
                                     <h3 class="major2 font-bold">Doodle-Game-Clone</h3>
                                     <span class="image main">
                                         <iframe width="100%" height="350" src="https://www.youtube.com/embed/iJhz2VKnsW4?si=0ovf5jjRBH9JS_AL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -97,7 +111,7 @@
                                 </div>
 
                                 <!-- More-GOL -->
-                                <div>
+                                <div class="w-full ">
                                     <h3 class="major2 font-bold">More Game of Life</h3>
                                     <span class="image main">
                                         <iframe width="100%" height="350" src="https://www.youtube.com/embed/VldLoQzzsVE?si=0243MdgYdbP8k6wg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -113,7 +127,7 @@
                                 </div>
 
                                 <!-- 2D Ray Casting Visibility -->
-                                <div>
+                                <div class="w-full ">
                                     <h3 class="major2 font-bold">2D Ray Casting Visibility</h3>
                                     <span class="image main">
                                         <iframe width="100%" height="350" src="https://www.youtube.com/embed/Bb1CrvisSLo?si=vgeBuUwO643aj6Fj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -234,9 +248,46 @@
                                             <!--<li><a href="#" target="_blank" class="icon brands fa-youtube"><span class="label">Video</span></a></li>-->
                                             <li><a href="https://github.com/abhayMore/Random-Walker" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
                                         </ul>
-                                    </div>
+                                     </div>
                                     <p>Random Walk simulation using C++ and SFML. Random Walk is a process of taking successive steps in random direction and simulating it using an entity(ex : dot, circle), thus creating a random pattern.</p>
                                 </div>
+                            </div>
+                        </article>
+                        
+                        <!--Unreal Projects-->
+                        <article id="unrealprojects">
+                            <div class="flex justify-center mt-[-20px] gap-8 mb-4" style="margin-bottom: 75px">
+                                <a href="index.html#projects" class="no-dotted-line custom-link">
+                                    <h2 class="major font-bold">Personal Projects</h2>
+                                </a>
+                                <a href="index.html#unrealprojects" class="no-dotted-line" style="background-color: #0000004d">
+                                    <h2 class="major font-bold">Unreal Projects</h2>
+                                </a>                                    
+                                <a href="index.html#professional" class="no-dotted-line custom-link">
+                                    <h2 class="major font-bold">Professional Projects</h2>
+                                </a>
+                            </div>
+
+                            <div class="grid lg:grid-cols-2 xl:grid-cols-3 grid-cols-1 gap-8">
+                                
+                            </div>
+                        </article>
+
+                        <!--Professional Projects-->
+                        <article id="professional">
+                             <div class="flex justify-center mt-[-20px] gap-8 mb-4" style="margin-bottom: 75px">
+                                <a href="index.html#projects" class="no-dotted-line custom-link">
+                                    <h2 class="major font-bold">Personal Projects</h2>
+                                </a>
+                                <a href="index.html#unrealprojects" class="no-dotted-line custom-link">
+                                    <h2 class="major font-bold">Unreal Projects</h2>
+                                </a>                                    
+                                <a href="index.html#professional" class="no-dotted-line" style="background-color: #0000004d">
+                                    <h2 class="major font-bold">Professional Projects</h2>
+                                </a>
+                            </div>
+
+                            <div class="grid lg:grid-cols-2 xl:grid-cols-3 grid-cols-1 gap-8">
                             </div>
                         </article>
 
