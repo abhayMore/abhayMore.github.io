@@ -6,6 +6,16 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+.container {
+	display: flex;
+	justify-content: center; /* Center horizontally */
+	align-items: center; /* Center vertically */
+	height: 200px; /* Adjust the height of the container as needed */
+}
+
+.container p {
+		text-align: center; /* Center-align the text */
+	}	
 .custom-link {
 	background-color: none;
 	padding-bottom: 5px;
